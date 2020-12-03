@@ -171,7 +171,7 @@ h2:before {
 }
 
 #menuBox {
-    background-image: url(img/bg.png);
+    background-image: url(bg.png);
     background-size: contain;
 }
 
@@ -197,7 +197,7 @@ dl {
 }
 
 .es_ot {
-    background-image: url(../img/others_bg.png);
+    background-image: url(others_bg.png);
     background-size: 90vw;
     background-repeat: no-repeat;
     background-position: right;
@@ -501,7 +501,7 @@ details[open] .menu_list {
     }
 
     .sns_box img {
-        width: 15vw;
+        width: 25vw;
     }
 
     #mapBox {
