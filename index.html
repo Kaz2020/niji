@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>community-cafe nijimaru</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="html5reset-1.6.1.css">
+    <link rel="stylesheet" href="owl.carousel.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#owl-example").owlCarousel({
+                items: 4,
+                pagination: false,
+                navigation: true,
+                margin: 10,
+                stagePadding: 50,
+                loop: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    // breakpoint from 0 up
+                    0: {
+                        items: 1,
+                    },
+                    // breakpoint from 480 up
+                    480: {
+                        items: 2,
+                    },
+                    // breakpoint from 768 up
+                    768: {
+                        items: 2,
+                    }
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <details>
+                <summary>Menu</summary>
+                <ul class="menu_list">
+                    <li><a href="#menuBox">menu</a></li>
+                    <li><a href="#stoerBox">stoer</a></li>
+                    <li><a href="#mapBox">access</a></li>
+                </ul>
+            </details>
+            <div class="title_top">
+                <img src="line_min1.png" alt="" class="line_name ue fainUe">
+                <h1 class="fain1">nijimaru</h1>
+                <img src="line_min1.png" alt="" class="line_name shita fainShita">
+            </div>
+            <p class="community fain1">community cafe</p>
+        </header>
+        <main>
+            <section id="titleBox">
+                <div class="title1 fainShita">
+                    <div class="title1_vis text2"></div>
+                    <p class="tate1">たくさんも良いけど、この一杯を</p>
+                </div>
+                <div class="title2 fainShita">
+                    <div class="title2_vis"></div>
+                    <p class="tate2">賑やかも良いけど、たまには長閑も</p>
+                </div>
+            </section>
+            <section id="conseptBox">
+                <div class="consept">
+                    <h2>consept</h2>
+                    <p>自分の時間を楽しむ、<br>
+                        大切な人との時間を育む場として。</p>
+                    <img src="stoer_in.jpg" alt="" class="fain1">
+                </div>
+                <div class="main_text">
+                    <p>この小さな空間での時間が、ほんの少しでも皆様の生活に<br>
+                        プラスになることを願いつつコミュニティカフェとして<br>
+                        20XX年、大村市にオープンしました。<br>
+                        <br>
+                        nijimaruではフレンチプレスコーヒーをメインにラテや<br>
+                        数量限定でスイーツも提供しています。<br>
+                        もちろんテイクアウトでのご利用もできます。<br>
+                    </p>
+                    <img src="logo.png" alt="" class="top">
+                </div>
+            </section>
+            <section id="menuBox">
+                <div class="menu_top">
+                    <h2>menu</h2>
+                    <p>月替わりの豆やオリジナルラテをご用意。</p>
+                    <p>デカフェも取り扱っております。</p>
+                </div>
+                <div class="coffee_box">
+                    <div class="coffee_in">
+                        <h3>Coffee</h3>
+                        <p>フレンチプレス</p>
+                        <p id="price">¥400</p>
+                        <p>3種類の豆からお選び頂けます。</p>
+                        <div class="image">
+                            <img src="press.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="es_ot">
+                    <div class="espre_box">
+                        <h3>Espresso</h3>
+                        <dl>
+                            <dt>ラテ</dt>
+                            <dd>¥430</dd>
+                            <dt>ラテ<br>(バニラ／はちみつ／チョコレート)</dt>
+                            <dd>¥450</dd>
+                            <dt>カプチーノ</dt>
+                            <dd>¥430</dd>
+                            <dt>アメリカーノ</dt>
+                            <dd>¥430</dd>
+                        </dl>
+                    </div>
+                    <div class="other_box">
+                        <h3>Others</h3>
+                        <dl>
+                            <dt>まっちゃラテ</dt>
+                            <dd>¥450</dd>
+                            <dt>チャイラテ</dt>
+                            <dd>¥450</dd>
+                            <dt>ココア</dt>
+                            <dd>¥450</dd>
+                            <dt>レモングラスティー</dt>
+                            <dd>¥430</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="set_box">
+                    <h3>Cake set</h3>
+                    <p>コーヒー(フレンチプレス) + ケーキ</p>
+                    <p id="price">¥800</p>
+                    <div class="image cake">
+                        <img src="cake_set.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <div class="line_kugiri">
+                <img src="line_min.png" alt="">
+            </div>
+
+            <section id="stoerBox">
+                <h2>stoer</h2>
+                <ul id="owl-example" class="owl-carousel">
+                    <li class="item"><img src="stoer_out.jpg" alt=""></li>
+                    <li class="item"><img src="table.jpg" alt=""></li>
+                    <li class="item"><img src="product.jpg" alt=""></li>
+                    <li class="item"><img src="press.jpg" alt=""></li>
+                    <li class="item"><img src="moca2.jpg" alt=""></li>
+                    <li class="item"><img src="macha.jpg" alt=""></li>
+                    <li class="item"><img src="interior.jpg" alt=""></li>
+                    <li class="item"><img src="interior2.jpg" alt=""></li>
+                    <li class="item"><img src="light_bulb.png" alt=""></li>
+                </ul>
+                <div class="sns_box">
+                    <p>毎月の営業日についてはInstagramでご確認ください。<br>(毎週、日曜・月曜・祝日定休)</p>
+                    <a href="https://www.instagram.com/nijimaru.cafe/"><img src="insta_icon.gif" alt=""></a>
+                </div>
+            </section>
+            <section id="mapBox">
+                <div class="logo"><img src="logo.png" alt=""></div>
+                <div class="addres right">
+                    <p>〒000-0000<br>長崎県大村市東三城町12-11A</p>
+                    <p><a href="tel:000-0000-0000">Tel:000-0000-0000</a></p>
+                    <p>大村駅から徒歩5分<br>駐車場完備</p>
+                    <div class="icon">
+                        <img src="wi-fi_blue.png" alt="">
+                        <img src="card_icon.png" alt="">
+                        <img src="parking.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.3242587960485!2d129.959961886727!3d32.91054012889367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94a06992b1528c27!2snijimaru!5e0!3m2!1sja!2sjp!4v1606558245248!5m2!1sja!2sjp" width="1400" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </main>
+        <footer><small>&copy;community-cafe nijimaru</small></footer>
+    </div>
+    <script src="js/main.js"></script>
+</body></html>
