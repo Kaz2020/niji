@@ -198,7 +198,7 @@ dl {
 
 .es_ot {
     background-image: url(others_bg.png);
-    background-size: 90vw;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
