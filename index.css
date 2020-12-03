@@ -1,0 +1,762 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Rufina&display=swap');
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    font-weight: normal;
+}
+
+.wrapper {
+overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+img,
+video,
+object {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h3,
+#price,
+dt,
+dd {
+    font-family: 'Rufina', serif;
+}
+
+h2,
+footer {
+    font-family: 'Courier New';
+    font-weight: 400;
+}
+
+#titleBox {
+    margin: 15% 0;
+}
+
+.title2 {
+    padding-top: 10%;
+}
+
+.main_text img,
+.logo img {
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+p {
+    font-family: 'Noto Serif JP', serif;
+}
+
+    .shita{
+        transform: rotate(180deg)
+    }
+
+.title1,
+.title2 {
+    height: 55%;
+    margin: auto;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.title1_vis {
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+    background-image: url(press_coffee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .6;
+}
+
+.title1 {
+    position: relative;
+}
+
+.tate1 {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.title2_vis {
+    width: 40vw;
+    height: 20vh;
+    margin: auto;
+    background-image: url(light_bulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+}
+
+.title2 {
+    position: relative;
+}
+
+.title1_vis,
+.title2_vis {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 22px 70px 4px;
+}
+
+.tate2 {
+    position: absolute;
+    top: :5%;
+    left: 20%;
+}
+
+.tate1,
+.tate2 {
+    white-space: nowrap;
+}
+
+#conseptBox {
+    background-image: url(line_tate1.png);
+    background-size: contain;
+}
+
+.consept {
+    text-align: center;
+}
+
+h1,
+.consept p,
+.menu_top p {
+    text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 3vh;
+}
+
+h2:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    display: inline-block;
+    width: 50px;
+    /*下線の幅*/
+    height: 2px;
+    /*下線の太さ*/
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+    /*位置調整*/
+    background-color: #666666;
+    /*下線の色*/
+}
+
+
+.consept img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#menuBox {
+    background-image: url(bg.png);
+    background-size: contain;
+}
+
+.menu_top,
+.set_box,
+#stoerBox,
+.main_text {
+    text-align: center;
+}
+
+.main_text{
+    height: 50vh;
+}
+
+.image img {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 30px;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.es_ot {
+    background-image: url(others_bg.png);
+    background-size: 90vw;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.set_box {
+    margin-top: 15%;
+    line-height: 1.5;
+}
+
+.cake {
+    width: 60vw;
+    margin: auto;
+}
+
+.line_kugiri {
+    width: 30vw;
+    margin: auto;
+}
+
+.sns_box {
+    width: 80vw;
+    margin: auto;
+    /*    white-space: nowrap;*/
+}
+
+.sns_box img {
+    width: 15vw;
+    margin: auto;
+}
+
+#mapBox {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+#mapBox img{
+    margin-right: 15%;
+}
+*/
+
+.logo {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/*---------------------Menuボタン---------------------*/
+details {
+    position: relative;
+    width: 50vw;
+    height: 5vh;
+}
+
+summary {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    transform: translateX(-50%);
+    padding: 20px;
+    width: 110px;
+    height: 30px;
+    background-color: #f5f5f5;
+    /*    border: 2px solid #f5f5f5;*/
+    border-radius: 8px;
+    cursor: pointer;
+    list-style: none;
+    z-index: 2;
+    display: block;
+    display: flex;
+    /*Menuの文字　上下中央揃え*/
+    align-items: center;
+}
+
+summary::-webkit-details-marker {
+    position: absolute;
+    color: transparent;
+}
+
+summary::after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+details[open] summary::after {
+    content: '-';
+}
+
+summary:hover,
+details[open] summary {
+    color: #000;
+    /*    background-color: #555;*/
+}
+
+details[open] summary:hover {
+    color: #000;
+    border-right-color: #000;
+}
+
+details[open] .menu_list {
+    animation: fadein .5s ease;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vh;
+    background-color: #f5f5f5;
+    z-index: 1;
+}
+
+.menu_list li a {
+    display: block;
+    padding: 15px 10px;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*------------------Menuボタンここまで---------------------*/
+
+
+
+
+/*======================  375px  ======================*/
+@media screen and (min-width:375px) {
+    summary {
+        width: 80px;
+        height: 20px;
+        font-size: .8em;
+    }
+
+    summary::after {
+        right: 10px;
+    }
+
+    .line_name {
+        width: 40vw;
+        margin: .2em auto;
+    }
+
+    .community {
+        margin-right: 5%;
+    }
+
+    .menu_list li a {
+        font-size: .8em;
+    }
+
+    .title_top {
+        margin: 3% 0;
+    }
+
+    h1 {
+        display: block;
+        text-align: center;
+/*        line-height: 1.5em;*/
+        font-size: 2em;
+    }
+
+    header p {
+        text-align: end;
+        font-size: .5em;
+    }
+
+    .title1_vis,
+    .title2_vis {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .title1,
+    .title2 {
+        height: 50vh;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .consept p {
+        line-height: 1.5em;
+    }
+
+    .consept img {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .main_text {
+        width: 70vw;
+        height: 250px;
+        margin: 10% auto;
+        font-size: 0.6em;
+        line-height: 1.5;
+    }
+
+    .main_text img {
+        width: 20vw;
+        margin: auto;
+        border: 1px solid #f5f5f5;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .coffee_box {
+        text-align: center;
+    }
+
+    .coffee_in {
+        margin-top: 5%;
+        line-height: 1.5;
+    }
+
+    .coffee_in img {
+        width: 70vw;
+        margin: auto;
+
+    }
+
+    .price {
+        font-size: 1.3em
+    }
+
+    h3 {
+        font-size: 1.4em;
+    }
+
+    .es_ot {
+        margin-top: 10%;
+    }
+
+    .es_ot h3 {
+        margin-bottom: 3%;
+        margin-left: 5%;
+    }
+
+    dl {
+        margin-top: 3%;
+        font-size: 0.7em;
+        width: 70vw;
+        margin: auto;
+    }
+
+    dl dt {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    dl dd {
+        width: 30%;
+    }
+
+    .set_box {
+        margin-top: 15%;
+        line-height: 1.5;
+    }
+
+    .cake {
+        width: 60vw;
+        margin: auto;
+    }
+
+    .line_kugiri {
+        width: 30vw;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    .sns_box {
+        width: 80vw;
+        /*        margin: auto;*/
+        text-align: left;
+        white-space: wrap;
+    }
+
+    .sns_box img {
+        width: 15vw;
+    }
+
+    #mapBox {
+        margin-top: 25%;
+        width: 90vw;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .addres p {
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .icon img {
+        width: 10vw;
+        margin-right: 15%;
+        margin-bottom: 10%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 50vh;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+
+/*---------------------768px--------------------*/
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    .main_text{
+        height: 500px;
+    }
+
+    #price {
+        font-size: 2em;
+    }
+
+    .community {
+        margin-right: 5%;
+        font-size: 1.2em;
+    }
+
+    .tate1,
+    .tate2 {
+        font-size: 1.5em;
+    }
+
+    #conseptBox {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .consept p,
+    .menu_top p {
+        font-size: 1.5em;
+        margin-bottom: 2%;
+    }
+
+    .consept img {
+        width: 60vw;
+    }
+
+    .main_text,
+    .addres {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
+    .coffee_in p,
+    .set_box p,
+    .sns_box {
+        font-size: 1.5em;
+    }
+
+    dl {
+        font-size: 1.5em;
+    }
+
+    .sns_box {
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .sns_box img {
+        display: inline-block;
+        width: 10vw;
+    }
+
+    .line_kugiri {
+        width: 20vw;
+        margin: 20% auto;
+    }
+
+    .addres {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
+    .logo {
+        width: 25vw;
+    }
+
+    .icon img {
+        width: 7vw;
+    }
+}
+
+/*---------------------1024px--------------------*/
+@media screen and (min-width: 1024px) {
+    summary {
+        width: 160px;
+        height: 60px;
+        font-size: 2em;
+    }
+
+    summary::after {
+        right: 10px;
+    }
+
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 4em;
+        /*        margin-bottom: 3%;*/
+        padding-bottom: 3%;
+        line-height: 3px;
+    }
+
+    h2::after {
+        margin-top: 40%;
+        height: 70px;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+
+
+    #price {
+        font-size: 2.7em;
+    }
+
+    .tate1,
+    .tate2 {
+        font-size: 2em;
+    }
+
+    .consept p,
+    .menu_top p {
+        font-size: 2em;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+
+    .menu_list li a {
+        padding-top: 15%;
+        font-size: 1.6em;
+    }
+
+    .community {
+        font-size: 1.8em;
+    }
+
+    .coffee_in p,
+    .set_box p,
+    .sns_box {
+        font-size: 2em;
+    }
+
+    #mapBox {
+        margin-bottom: 10%;
+    }
+
+    iframe {
+        height: 30vh;
+    }
+}
+/*-----------------------1300px---------------*/
+@media screen and (min-width:1300px) {
+
+    .line_name{
+        width: 20vw;
+    }
+
+    h1{
+        font-size: 7em;
+    }
+
+    .title1_vis,
+    .title2_vis {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .title2_vis {
+        margin-top: 30%
+    }
+
+    #conseptBox {
+        padding-top: 20%;
+        background-size: contain;
+    }
+
+    .line_kugiri {
+        width: 15vw;
+    }
+
+    .sns_box img{
+        display: inline-block;
+        width: 6vw;
+        margin-top: 5%;
+    }
+
+    .logo{
+        width: 15vw;
+    }
+
+    .addres{
+        margin-left: 10%;
+    }
+
+/*
+    .icon img{
+        width: 3vw;
+    }
+*/
+
+    iframe{
+        height: 50vh;
+    }
+}
